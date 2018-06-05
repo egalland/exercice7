@@ -1,0 +1,15 @@
+#identite, #identite legend{
+  background-color: blue;
+}
+
+#livraison, #livraison legend{
+  background-color: purple;
+}
+
+#paiement, #paiement legend{
+  background-color: MediumVioletRed;
+}
+
+input {
+  border-radius: 0px;
+}
