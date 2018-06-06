@@ -1,13 +1,13 @@
 #identite, #identite legend{
-  background-color: blue;
+  background-color: #2574A9;
 }
 
 #livraison, #livraison legend{
-  background-color: purple;
+  background-color: #DB0A5B;
 }
 
 #paiement, #paiement legend{
-  background-color: MediumVioletRed;
+  background-color: #DB0A5B;
 }
 
 input {
