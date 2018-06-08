@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-    <form method="post" action="">
+    <form method="post" action="#">
       <!-- IDENTITE  -->
       <fieldset id="identite">
         <legend>Votre identité</legend>
@@ -30,9 +30,11 @@
         <legend>Informations de réglement</legend>
         <ol>
           <li>
-            <label for="typeCB">Type de carte bancaire :</label></br>
-            <input type="radio" name="typeCB" value="visa" id="visa" /> <label for="visa">VISA</label></br>
-            <input type="radio" name="typeCB" value="mastercard" id="mastercard" /> <label for="visa">MASTERCARD</label>
+            <ul>
+              <li><label for="typeCB" id="typeCB">Type de carte bancaire :</label></li>
+              <li><input type="radio" name="typeCB" value="visa" id="visa" /> <label for="typeCB">VISA</label></li>
+              <li><input type="radio" name="typeCB" value="mastercard" id="mastercard" /> <label for="typeCB">MASTERCARD</label></li>
+            </ul>
           </li>
           <li><label for="numero">Numéro de carte :</label><input type="text" name="numero" id="numero"placeholder="Numéro de carte" /></li>
           <li><label for="code">Code de sécurité :</label><input type="text" name="code" id="code" placeholder="Code de sécurité" /></li>
